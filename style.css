@@ -1,0 +1,40 @@
+*{
+ color: #e57c23;
+ text-align: center;
+}
+body {
+ height: 300px;
+ width: 300px;
+ border: none;
+ box-shadow: 0px 0px 10px #e57c23;
+ border-radius: 20px;
+ position: absolute;
+ top: 50%;
+ left: 48%;
+ transform: translate(-50%, -50%);
+}
+button,input{
+ cursor: pointer;
+ outline: none;
+ border-radius: 10px;
+ border: none;
+ box-shadow: 0px 0px 10px #e57c23; 
+ margin: 2px;
+}
+a{
+ text-decoration: none;
+}
+input{
+ height: 25px;
+ width: 250px;
+}
+button{
+ height: 30px;
+ width: 60px;
+}
+.ButtonCreate{
+ width: 160px;
+}
+.inputCreate{
+  margin: 14.5px;
+}
